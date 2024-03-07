@@ -1,0 +1,2 @@
+
+var mongoose = require('mongoose');var Schema = mongoose.Schema;var Clientes = new Schema({cliente_id: {type: Schema.Types.ObjectId, required: true},nombre: {type: String},direccion: {type: String},telefono: {type: String},Email: {type: String},fecha_registro: {type: Date},recomendado_por_cliente: {type: Schema.Types.ObjectId}}); 

@@ -1,0 +1,2 @@
+
+var mongoose = require('mongoose');var Schema = mongoose.Schema;var Ventas = new Schema({venta_id: {type: Schema.Types.ObjectId, required: true},cliente_id: {type: Schema.Types.ObjectId},gafa_id: {type: Schema.Types.ObjectId},empleado_id: {type: Schema.Types.ObjectId},fecha_venta: {type: Date},total_venta: {type: Number}}); 
